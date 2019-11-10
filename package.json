@@ -1,0 +1,22 @@
+{
+  "name": "cpferias-bot",
+  "version": "1.0.0",
+  "description": "A simple Twitter bot that counts down for Colégio Pedro II vacations and post it using Node.js technology and Twitter API",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/washingtonjnl/cpferias-bot"
+  },
+  "keywords": [],
+  "author": "Washington Junior",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-schedule": "^1.3.2",
+    "random-item": "^3.0.0",
+    "twit": "^2.2.11"
+  }
+}
